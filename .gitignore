@@ -1,0 +1,17 @@
+
+__pycache__/
+
+*.pyc
+
+*.xyz
+
+*.csv
+
+*.png
+
+polymer1.py
+
+polymer6_test1.py
+
+polymer6_test2.py
+

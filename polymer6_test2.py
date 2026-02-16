@@ -1,55 +1,5 @@
 #!/usr/bin/env python3
 
-"""
-
-polymer6.py — 2D lattice polymer Monte Carlo (NO boundaries / infinite lattice)
-
-
-
-SAW model (energy = 0) with move set:
-
-  - end move
-
-  - corner flip
-
-  - crankshaft
-
-
-
-Includes VMD visualization output:
-
-  - writes traj.xyz (multi-frame XYZ)
-
-  - recenters each frame so the polymer stays near the origin
-
-
-
-Also saves SAW observables:
-
-  - saw_observables.csv containing step, R, Rg, contacts
-
-  - prints averages after burn-in
-
-
-
-Run:
-
-  python3 polymer6.py
-
-
-
-Visualize (on your local machine with VMD):
-
-  vmd traj.xyz
-
-Then in VMD console (optional):
-
-  mol bondsrecalc top
-
-"""
-
-
-
 import random
 
 import math

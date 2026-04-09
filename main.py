@@ -51,9 +51,6 @@ with open("trajectory_unrestrained.txt", "w") as f:
         energy = analysis.hp_contacts(path, sequence, Epsilon)
         f.write(f"Path {i}: {path} Energy = {energy}\n")
         
-# -----------------------------
-# Restrained systems
-# -----------------------------
 for k_force in k_values:
     restrained_results = restrained_analysis.analyze_paths_with_restraint(all_paths, sequence, kT, Epsilon, bead_i, bead_j, k_force)
     min_energy_r, lowest_paths_r, degeneracy_r = restrained_analysis.lowest_energy_microstates_with_restraint(all_paths, sequence, Epsilon, bead_i, bead_j, k_force)

@@ -88,7 +88,6 @@ for k_force in k_values:
 
     print()
     
-
     all_paths = enumeration.enumerate_paths(sequence)
 
     with open("trajectory_all_k.txt", "w") as f:

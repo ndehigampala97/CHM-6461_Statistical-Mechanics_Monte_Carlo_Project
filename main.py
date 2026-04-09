@@ -49,7 +49,7 @@ for i in range(len(lowest_paths)):
 with open("trajectory_unrestrained.txt", "w") as f:
     for i, path in enumerate(all_paths, 1):
         energy = analysis.hp_contacts(path, sequence, Epsilon)
-        f.write(f"Path {i}: {path} Energy = {energy}/n")
+        f.write(f"Path {i}: {path} Energy = {energy}\n")
         
 # -----------------------------
 # Restrained systems

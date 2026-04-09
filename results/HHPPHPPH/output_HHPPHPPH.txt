@@ -1,0 +1,105 @@
+==================================================
+UNRESTRAINED SYSTEM
+==================================================
+Sequence = HHPPHPPH
+Number of conformations = 272
+Partition function = 922.1323070485707
+Average end-to-end distance = 3.753667905632506
+Average radius of gyration = 1.3333537793501524
+Average end-to-end distance = 2.6328715983631876
+Average energy = -1.3275535301800563
+Entropy S1 = 4.614099496347381
+Entropy S2 = 4.614099496347365
+
+Macrostates (Energy : Degeneracy)
+-3 : 1
+-2 : 7
+-1 : 73
+0 : 191
+Lowest energy = -3
+Number of lowest-energy microstates = 1
+State 1 = [(0, 0), (1, 0), (2, 0), (2, 1), (1, 1), (1, 2), (0, 2), (0, 1)]
+
+==================================================
+RESTRAINED SYSTEM  (k = 0.1)
+==================================================
+Restrained beads (0-based indices) = 1 7
+Restrained beads (human numbering) = 2 8
+Partition function Z = 471.48574986426155
+Average end-to-end distance = 3.753667905632506
+Average radius of gyration = 1.2137387022826276
+Average end-to-end distance = 1.839692798562777
+Average energy = -1.5655643629771847
+Entropy S1 = 3.5466149403400453
+Entropy S2 = 3.5466149403400626
+Comparison with unrestrained: Z decreased
+
+Restrained macrostates (Energy : Degeneracy)
+-2.9 : 1
+-1.9 : 7
+-0.9 : 18
+-0.09999999999999998 : 55
+0.1 : 18
+0.9 : 78
+2.5 : 95
+Lowest restrained energy = -2.9
+Degeneracy of lowest restrained energy = 1
+Number of lowest-energy restrained microstates = 1
+State 1 = [(0, 0), (1, 0), (2, 0), (2, 1), (1, 1), (1, 2), (0, 2), (0, 1)]
+
+
+==================================================
+RESTRAINED SYSTEM  (k = 0.5)
+==================================================
+Restrained beads (0-based indices) = 1 7
+Restrained beads (human numbering) = 2 8
+Partition function Z = 199.22208172816326
+Average end-to-end distance = 3.753667905632506
+Average radius of gyration = 1.164704116619985
+Average end-to-end distance = 1.479029477930878
+Average energy = -1.531988745296543
+Entropy S1 = 2.741105615561658
+Entropy S2 = 2.7411056155616373
+Comparison with unrestrained: Z decreased
+
+Restrained macrostates (Energy : Degeneracy)
+-2.5 : 1
+-1.5 : 7
+-0.5 : 18
+0.5 : 18
+3.5 : 55
+4.5 : 78
+12.5 : 95
+Lowest restrained energy = -2.5
+Degeneracy of lowest restrained energy = 1
+Number of lowest-energy restrained microstates = 1
+State 1 = [(0, 0), (1, 0), (2, 0), (2, 1), (1, 1), (1, 2), (0, 2), (0, 1)]
+
+
+==================================================
+RESTRAINED SYSTEM  (k = 1.0)
+==================================================
+Restrained beads (0-based indices) = 1 7
+Restrained beads (human numbering) = 2 8
+Partition function Z = 86.49292903709684
+Average end-to-end distance = 3.753667905632506
+Average radius of gyration = 1.1644258767616438
+Average end-to-end distance = 1.4769663050691546
+Average energy = -1.0373563818929794
+Entropy S1 = 2.73113536220569
+Entropy S2 = 2.731135362205669
+Comparison with unrestrained: Z decreased
+
+Restrained macrostates (Energy : Degeneracy)
+-2.0 : 1
+-1.0 : 7
+0.0 : 18
+1.0 : 18
+8.0 : 55
+9.0 : 78
+25.0 : 95
+Lowest restrained energy = -2.0
+Degeneracy of lowest restrained energy = 1
+Number of lowest-energy restrained microstates = 1
+State 1 = [(0, 0), (1, 0), (2, 0), (2, 1), (1, 1), (1, 2), (0, 2), (0, 1)]
+

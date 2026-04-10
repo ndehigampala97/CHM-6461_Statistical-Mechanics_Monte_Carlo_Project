@@ -1,0 +1,20 @@
+Sequence: PPPPPPPP
+Trajectory file: trajectory_PPPPPPPP-21352.txt
+
+MC results
+Frames: 300001
+Average energy: 0.0
+Average end2end: 3.7404127931795585
+Sampled macrostates: Counter({0.0: 300001})
+
+Exact enumeration results
+Number of exact paths: 272
+Average energy: 0.0
+Average end2end: 3.753667905632505
+Exact macrostates: Counter({0: 272})
+
+Coverage analysis
+Total exact states: 272
+Visited states: 272
+All states found = True
+Steps used = 21352

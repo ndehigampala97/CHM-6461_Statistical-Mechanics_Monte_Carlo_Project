@@ -1,0 +1,20 @@
+Sequence: HHHHHHHH
+Trajectory file: trajectory_HHHHHHHH-294695.txt
+
+MC results
+Frames: 300001
+Average energy: -2.4602651324495586
+Average end2end: 2.1358129143570688
+Sampled macrostates: Counter({-3.0: 183766, -2.0: 78012, -1.0: 30760, 0.0: 7463})
+
+Exact enumeration results
+Number of exact paths: 272
+Average energy: -2.452833637073496
+Average end2end: 2.1299206048981554
+Exact macrostates: Counter({0: 118, -1: 92, -2: 43, -3: 19})
+
+Coverage analysis
+Total exact states: 272
+Visited states: 272
+All states found = True
+Steps used = 294695
